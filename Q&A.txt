@@ -1,0 +1,17 @@
+Q&A  on Resume pdf
+
+Q1 Name of the candidate
+Ans ANIKET RAJPALI
+
+Q2 Name of the candidate college
+Ans Shri Ramdeobaba College of Engineering and Management
+
+Q3 Candidate Skills?
+Ans Based on the provided text, Aniket Rajpali possesses skills in: AI, machine learning, computer vision, building end-to-end ML pipelines, algorithm optimization, data analysis (extracting actionable insights), Python, TensorFlow, Keras, Scikit-learn, C++, Django (basic), Streamlit, Flask, REST API development, image processing, and building predictive analytics systems. He also demonstrates analytical skills, innovative problem-solving abilities, adaptability, and effective research skills.
+Q4 Strengths of candidate?
+Ans Analytical Skills (ability to assess complex information and make data-driven decisions), Innovative Problem Solver (strong skills in developing creative solutions), Adaptability (flexibility to thrive in dynamic environments and adjust to changing priorities), Effective Research Skills (successful in impactful technology research), Advanced ML Expertise (proficient in TensorFlow, Keras, and Scikit-learn), and Diverse Programming Knowledge (experienced with Python, C++, and Mat).
+
+Q5  Project of Candidate?
+AnsDamage characterization of composite plates using TensorFlow and Keras for enhanced defect detection and analysis; a predictive analytics system that analyzes attributes such as sleep, rest hours, training duration, and hydration to forecast an athlete’s speed, leveraging Gemini LLM to generate personalized recommendations.
+Q6 Role For which candidate is intrested?
+Based on the provided text, Aniket Rajpali is interested in roles that utilize his skills in AI, machine learning, and computer vision. He is specifically experienced in developing and deploying intelligent systems for applications like damage characterization, fracture detection, and chatbot development.
