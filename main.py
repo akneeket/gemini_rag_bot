@@ -15,7 +15,7 @@ from langchain_community.document_loaders import PyPDFLoader, WebBaseLoader
 import google.generativeai as genai
 
 # ========== CONFIG ==========
-GEMINI_API_KEY = "AIzaSyDap-gsrGYIzLWCADfWLoK8wsSsV80DoIk"  # 🔐 Replace this
+GEMINI_API_KEY = "place your api key here"  # 🔐 Replace this
 MODEL_NAME = "models/gemini-1.5-flash"
 PICKLE_PATH = "faiss_vectorstore.pkl"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
