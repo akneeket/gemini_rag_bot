@@ -5,16 +5,16 @@ import time
 import json
 import streamlit as st
 import pandas as pd
-from PyPDF2 import PdfReader
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import PyPDFLoader, WebBaseLoader
 from langchain.schema import Document
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader, WebBaseLoader
+
 import google.generativeai as genai
 
 # ========== CONFIG ==========
-GEMINI_API_KEY = "Your gemini api key"  # 🔐 Replace this
+GEMINI_API_KEY = "AIzaSyDap-gsrGYIzLWCADfWLoK8wsSsV80DoIk"  # 🔐 Replace this
 MODEL_NAME = "models/gemini-1.5-flash"
 PICKLE_PATH = "faiss_vectorstore.pkl"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
