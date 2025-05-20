@@ -14,7 +14,7 @@ from langchain.schema import Document
 import google.generativeai as genai
 
 # ========== CONFIG ==========
-GEMINI_API_KEY = "AIzaSyDap-gsrGYIzLWCADfWLoK8wsSsV80DoIk"  # 🔐 Replace this
+GEMINI_API_KEY = "Your gemini api key"  # 🔐 Replace this
 MODEL_NAME = "models/gemini-1.5-flash"
 PICKLE_PATH = "faiss_vectorstore.pkl"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
