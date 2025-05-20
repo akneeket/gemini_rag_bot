@@ -3,6 +3,7 @@ import tempfile
 import pickle
 import time
 import json
+import asyncio
 import streamlit as st
 import pandas as pd
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -49,8 +50,21 @@ Context:
 Question: {question}
 Answer:"""
     model = genai.GenerativeModel(MODEL_NAME)
-    response = model.generate_content(prompt)
-    return response.text.strip()
+
+    async def call_model():
+        return await model.generate_content_async(prompt)
+
+    try:
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
+    try:
+        response = loop.run_until_complete(call_model())
+        return response.text.strip()
+    except Exception as e:
+        return f"❌ Error while calling Gemini: {str(e)}"
 
 def load_json_as_docs(file) -> list:
     content = json.load(file)
